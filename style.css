@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@
 body {
   color: #535353;
   background: black;
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 li {
@@ -228,7 +229,7 @@ figcaption {
   background-color: black;
   letter-spacing: .1em;
   text-shadow: -1px -1px 1px #111,  2px 2px 1px #363636;
-  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 7rem;
   padding: 80px 50px;
   text-align: center;
@@ -246,6 +247,7 @@ H2 {
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 900px) {
