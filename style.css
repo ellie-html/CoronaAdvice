@@ -236,9 +236,31 @@ figcaption {
   text-rendering: optimizeLegibility;
 }
 
+H2 {
+  display: inline-block;
+  color: #eee;
+  background-color: rgba(139, 0, 10, 0.9);
+  line-height: 1;
+  padding: 0.5em 0.9em;
+  margin-right: 0.5em;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
 @media screen and (max-width: 900px) {
   .insetshadow {
     font-size: 3rem;
+    padding: 0;
+    margin: 20px;
+    margin-top: 50px;
+  }
+  h2 {
+    font-size: 1rem;
+    margin-top: 50px;
+  }
+  .js-slider {
+    height: 70vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
